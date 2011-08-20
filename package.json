@@ -1,0 +1,21 @@
+{
+  "author": "Brian LeRoux <b@brian.io> (brian.io)",
+  "name": "phonegap-bench",
+  "description": "a nice place to store phonegap benchmarking data",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~v0.4.7"
+  },
+  "dependencies": {
+    "coffee-script":"1.1.2",
+    "connect-redis":"1.0.7",
+    "ejs":"0.4.3",
+    "express":"2.4.5",
+    "redis":"0.6.7"
+    },
+  "devDependencies": {}
+}
