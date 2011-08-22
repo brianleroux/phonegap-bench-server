@@ -38,9 +38,9 @@ app.get '/reports.json', (req, res) ->
 
 # save a benchmark
 app.post '/', (req, res) ->
+  res.header("Access-Control-Allow-Origin", "*")
+  res.header("Access-Control-Allow-Headers", "X-Requested-With")
   store.save req.body, -> 
-    res.header("Access-Control-Allow-Origin", "*")
-    res.header("Access-Control-Allow-Headers", "X-Requested-With")
     res.send 200
 
 # clear the data
