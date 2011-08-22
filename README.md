@@ -11,7 +11,7 @@ This is a simple app to provide persistence to benchmarks obtained from a test a
 Server Impl
 ---
 
-The server portion of this application provides a simple REST API for persisting data obtained from the client application. Currently the app is deployed on Heroku, implemented in NodeJS, CoffeeScript and MongoDB. If you want to hack on it and deploy it to the main site just ping @brianleroux for collaborator access on Heroku.
+The server portion of this application provides a simple REST API for persisting data obtained from the client application. Currently the app is deployed on Heroku, implemented in NodeJS, CoffeeScript and backed by Redis. If you want to hack on it and deploy it to the main site just ping @brianleroux for collaborator access on Heroku.
 
 Client Impl
 ---

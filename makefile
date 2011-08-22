@@ -1,6 +1,6 @@
 default: test
 
 test:
-	coffee ./test/test.coffee
+	coffee ./test/runner.coffee
 
 .PHONY: test
